@@ -28,4 +28,14 @@
         </intent-filter>
     </receiver>
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Read Text From file"
+        android:onClick="ReadBtn"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_alignStart="@+id/editText1" />
+
 </manifest>
